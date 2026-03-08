@@ -1,0 +1,11 @@
+[
+  {
+    "type": "CLAIM",
+    "claim_type": "ASSIGNMENT",
+    "value": "Helping with Executive Recruiting",
+    "source": "1273",
+    "quote": "Kenneth Kern & Associates - Ken Kern. I forwarded to him a copy of the City's Advertisement...",
+    "confidence_score": 0.8,
+    "extraction_version": "v1.1-generalized"
+  }
+]

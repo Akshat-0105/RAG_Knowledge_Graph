@@ -1,0 +1,11 @@
+[
+  {
+    "type": "CLAIM",
+    "claim_type": "STATUS",
+    "value": "Approved",
+    "source": "325",
+    "quote": "The attached expense report is approved for payment.",
+    "confidence_score": 1,
+    "extraction_version": "v1.1-generalized"
+  }
+]

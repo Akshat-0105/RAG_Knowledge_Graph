@@ -1,0 +1,11 @@
+[
+  {
+    "type": "CLAIM",
+    "claim_type": "ASSIGNMENT",
+    "value": "Finding Executive Recruiting firms",
+    "source": "1273",
+    "quote": "Exec Recruiter - Ted Bland has found three Executive Recruiting firms",
+    "confidence_score": 0.8,
+    "extraction_version": "v1.1-generalized"
+  }
+]

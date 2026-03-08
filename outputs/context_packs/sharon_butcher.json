@@ -1,0 +1,11 @@
+[
+  {
+    "type": "CLAIM",
+    "claim_type": "ASSIGNMENT",
+    "value": "sent memo regarding the rationale for the decision",
+    "source": "2142",
+    "quote": "I had requested that she detail the rationale for the decision.",
+    "confidence_score": 0.8,
+    "extraction_version": "v1.1-generalized"
+  }
+]
