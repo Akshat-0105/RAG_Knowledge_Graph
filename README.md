@@ -1,7 +1,9 @@
 RAG_Knowledge_Graph: Corporate Memory Auditor
 
+
  Project Overview
 This repository contains a high-fidelity pipeline for transforming unstructured corporate email corpora into a grounded, deduplicated Knowledge Graph. The system utilizes a "Quality Shield" architecture to eliminate logistical noise and "nil" value hallucinations common in standard LLM extractions.
+
 
  Technical Architecture & Decisions
 1. Ontology
@@ -34,6 +36,7 @@ Incremental Processing: Uses a processed_files.json tracker to ensure only new f
 
 Non-Destructive Storage: Utilizes a NetworkX MultiDiGraph to allow multiple claims between entities without overwriting historical data.
 
+
  RAG Capabilities: AI Auditor
 The system includes a functional Retrieval-Augmented Generation (RAG) interface:
 
@@ -43,6 +46,7 @@ Context Packaging: The auditor retrieves specific "Context Packs" (claims, quote
 
 Hallucination Guard: The AI Auditor is instructed to answer using ONLY the retrieved graph context, ensuring every response includes a verifiable Source ID.
 
+
  Adaptation to Layer10
 To scale this proof-of-concept to Layer10's production environment, the following adaptations are recommended:
 
@@ -51,6 +55,7 @@ Sub-graph Extraction: Implement localized neighborhood retrieval to feed only re
 Persistent Graph Database: Migrate from serialized .pkl files to Neo4j for real-time querying across millions of nodes.
 
 Distributed Extraction: Deploy the extraction logic as serverless functions to handle massive parallel ingestion spikes.
+
 
  How to Reproduce
 Setup Environment: pip install -r requirements.txt.
