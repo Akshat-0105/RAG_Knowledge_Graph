@@ -1,0 +1,12 @@
+# UI and Visualization
+streamlit
+streamlit-agraph
+networkx
+
+# AI and Schema-Structured Extraction
+openai
+instructor
+pydantic
+
+# Utilities
+python-dotenv
